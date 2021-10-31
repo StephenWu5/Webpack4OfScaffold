@@ -6,7 +6,7 @@
 export default {
     data(){
         return{
-            msg:'webpack4搭建react环境基本完成，是不是很简单呢'
+            msg:'webpack4搭建vue环境基本完成，是不是很简单呢'
         }
     }
 }
