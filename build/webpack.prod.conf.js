@@ -87,9 +87,8 @@ module.exports = merge(baseWebpackConfig, {
         new CleanWebpackPlugin({}),//每次打包前清除dist
         new HtmlWebpackPlugin({
             //将目录下的index.html引进生成的dist中的index.html
-            template: 'src/public/index.html',
+            template: 'public/index.html',
             title: '基于vue的webpack4教手架项目 准备在项目中采用vue-router、vuex、vant等技术(product生产环境)',
-            favicon: 'src/assets/favicon-shield.ico',
             minify: {
                 removeComments: true,
                 collapseWhitespace: true,

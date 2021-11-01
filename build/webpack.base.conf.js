@@ -22,7 +22,7 @@ module.exports = {
 				use: "vue-loader",
 			},
 			{
-				test: /\.js?$/,
+				test: /\.(js|jsx)?$/,
 				use: "babel-loader",
                 // use: [
 				// 	{

@@ -85,7 +85,7 @@ module.exports = merge(baseWebpackConfig, {
     plugins: [
         //处理html
         new HtmlWebpackPlugin({
-            template: "src/public/index.html", //开发环境需要路径
+            template: "public/index.html", //开发环境需要路径
             inject: "body", //所有javascript资源将被放置在body元素的底部
             minify: {
                 html5: true,
@@ -94,7 +94,6 @@ module.exports = merge(baseWebpackConfig, {
             title:
                 "基于vue的webpack4教手架项目 准备在项目中采用vue-router、vuex、vant等技术(development开发环境)",
             hash: true,
-            favicon: "src/assets/favicon-shield.ico", //将给定的favicon路径添加到输出HTML
             showErrors: true,
         }),
         // 开启热更新
