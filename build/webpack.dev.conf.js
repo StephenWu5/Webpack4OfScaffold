@@ -44,7 +44,7 @@ module.exports = merge(baseWebpackConfig, {
                 ],
             },
             {
-                test: /\.(png|svg|jpg|gif)$/,
+                test: /\.(png|svg|jpg|gif|jpe?g)$/,
                 use: [
                     {
                         loader: "file-loader",
@@ -76,7 +76,7 @@ module.exports = merge(baseWebpackConfig, {
         proxy: {
             //代理服务器
             "/api": {
-                target: "http://localhost:8080",
+                target: "http://localhost:8081",
                 changeOrigin: true,
                 pathRewrite: { "^api": "/api" },
             },

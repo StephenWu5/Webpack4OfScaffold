@@ -68,7 +68,7 @@ module.exports = merge(baseWebpackConfig, {
                 ]
             },
             {
-                test: /\.(png|svg|jpg|gif)$/,
+                test: /\.(png|svg|jpg|gif|jpe?g)$/,
                 use: [
                     {
                         loader: 'file-loader',
