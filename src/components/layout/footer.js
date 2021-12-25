@@ -1,5 +1,5 @@
 import React from 'react';
-class FooterContent extends React.Component {
+class FooterContent extends React.PureComponent {
   constructor(props) {
     super(props);
   }

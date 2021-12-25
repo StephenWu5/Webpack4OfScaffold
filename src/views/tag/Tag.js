@@ -5,7 +5,7 @@ import AddTag from './AddTag';
 import styles from './Tag.module.css';
 import BasicTable from '../../components/BasicTable';
 import { queryTags, deleteTags } from '../../utils/urls';
-class MyTag extends React.Component {
+class MyTag extends React.PureComponent {
   state = {
     visible: false,
     tag: {},

@@ -9,7 +9,7 @@ import './Index.css';
 
 const { Header, Footer, Sider, Content } = Layout;
 
-class Login extends React.Component {
+class Login extends React.PureComponent {
   // 子组件声明自己需要使用 context
   static contextTypes = {
     children: PropTypes.array

@@ -4,7 +4,7 @@ import http from '../../utils/http';
 import { queryArticle, deleteArticle } from '../../utils/urls';
 import BasicTable from '../../components/BasicTable';
 
-class Article extends React.Component {
+class Article extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {

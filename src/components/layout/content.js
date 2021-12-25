@@ -9,7 +9,7 @@ import CreateBreadcrumb from '../sub/CreateBreadcrumb';
 
 // todo 试着把它改为函数式组件？
 
-class Content extends React.Component {
+class Content extends React.PureComponent {
   // 子组件声明自己需要使用 context
   static contextTypes = {
     children: PropTypes.array

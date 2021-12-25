@@ -29,7 +29,7 @@ const tailFormItemLayout = {
     }
   }
 };
-class GroupForm extends React.Component {
+class GroupForm extends React.PureComponent {
   /**
    * 渲染表格每一项输入
    * @param {*} field

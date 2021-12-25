@@ -8,7 +8,7 @@ import { createTags } from '../../utils/urls';
 /*
  *标签页--新增/编辑弹框
  */
-class AddTagModal extends React.Component {
+class AddTagModal extends React.PureComponent {
   static getDerivedStateFromProps(props) {
     return {
       visible: props.visible

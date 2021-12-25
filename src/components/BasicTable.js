@@ -3,7 +3,7 @@ import { Table } from 'antd';
 /**
  * 通用组件--表格
  */
-class BasicTable extends React.Component {
+class BasicTable extends React.PureComponent {
     changePage(current) {
         const { query } = this.props;
         const { pageSize } = this.props.pagination;

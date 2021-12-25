@@ -3,7 +3,7 @@ import { Menu, Icon } from 'antd';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-class Slider extends React.Component {
+class Slider extends React.PureComponent {
   // 子组件声明自己需要使用 context
   static contextTypes = {
     menuItem: PropTypes.string,

@@ -4,7 +4,7 @@ import './Login.css';
 import http from '../utils/http';
 import GroupForm from '../components/GroupForm';
 import { login, register } from '../utils/urls';
-class Login extends React.Component {
+class Login extends React.PureComponent {
   // 按钮列表
   btns = [
     {

@@ -6,7 +6,7 @@ import { getFields } from './config.js';
 import { get } from 'lodash';
 import { dispatchArticle, updateArticle, queryTags } from '../../utils/urls';
 // 发布文章
-class Dispatch extends React.Component {
+class Dispatch extends React.PureComponent {
   state = {
     tagsEnums: [], // 标签下拉值,
     formData: {} //表单详情值,
